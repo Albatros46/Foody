@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35017.193
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foody.Entities", "Foody.Entities\Foody.Entities.csproj", "{300FE1AD-64D1-4C99-9432-99AF2390FC71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foody.WebUI", "Foody.WebUI\Foody.WebUI.csproj", "{5EA736CE-5C1E-4935-B386-219AD9D8A66E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{300FE1AD-64D1-4C99-9432-99AF2390FC71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{300FE1AD-64D1-4C99-9432-99AF2390FC71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{300FE1AD-64D1-4C99-9432-99AF2390FC71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{300FE1AD-64D1-4C99-9432-99AF2390FC71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EA736CE-5C1E-4935-B386-219AD9D8A66E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EA736CE-5C1E-4935-B386-219AD9D8A66E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EA736CE-5C1E-4935-B386-219AD9D8A66E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EA736CE-5C1E-4935-B386-219AD9D8A66E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D74F6AA-288D-46F4-9A67-43E134A14CBD}
+	EndGlobalSection
+EndGlobal
