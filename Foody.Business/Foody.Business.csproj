@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Foody.DataAcces\Foody.DataAcces.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -3,15 +3,17 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Abstruct\" />
     <Folder Include="Concrete\" />
-    <Folder Include="Context\" />
     <Folder Include="EntityFramework\" />
     <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Foody.Entities\Foody.Entities.csproj" />
   </ItemGroup>
 
 </Project>
