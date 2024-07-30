@@ -1,7 +1,6 @@
 ﻿@model Category
-
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Update";
     Layout = "~/Views/AdminLayout/Index.cshtml";
 }
 
@@ -12,21 +11,20 @@
             <ul class="breadcrumbs mb-3">
                 <li class="nav-home">
                     <a href="/Categories/CategoryList">
-
                         <i class="icon-home"></i>
                     </a>
                 </li>
                 @*    <li class="separator">
-                    <i class="icon-arrow-right"></i>
+                <i class="icon-arrow-right"></i>
                 </li>
                 <li class="nav-item">
-                    <a href="#">Category</a>
+                <a href="#">Category</a>
                 </li> *@
                 <li class="separator">
                     <i class="icon-arrow-right"></i>
                 </li>
                 <li class="nav-item">
-                    <a href="#">New Category</a>
+                    <a href="#">Category Update</a>
                 </li>
             </ul>
         </div>
@@ -36,15 +34,17 @@
             <div class="col-md-6">
                 <div class="card">
                     <div class="card-header">
-                        <div class="card-title">Add New Category</div>
+                        <div class="card-title">Category Update</div>
                     </div>
                     <div class="card-body">
                         <form method="post">
+                            <input type="hidden" asp-for="CategoryId" />
                             <div class="form-group">
                                 <label>Category Name</label>
-                                <input type="text" asp-for="CategoryName"/>
+                                <input type="text" asp-for="CategoryName" />
                             </div>
-                            <button type="submit" class="btn btn-primary">Add Category</button>
+                           
+                            <button type="submit" class="btn btn-success">Update Category</button>
                         </form>
                     </div>
                 </div>
@@ -52,5 +52,4 @@
         </div>
     </div>
 </div>
-
 

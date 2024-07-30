@@ -31,5 +31,24 @@ namespace Foody.WebUI.Controllers
 			_service.TInsert(category);
             return RedirectToAction("CategoryList");
         }
+	//	[HttpDelete]
+		public IActionResult Delete(int id) 
+		{ 
+			_service.TDelete(id);
+			return RedirectToAction("CategoryList");
+		}
+		[HttpGet]
+		public IActionResult Update(int id)
+		{
+			var value=_service.TGetById(id);
+			return View(value);
+		}
+
+        [HttpPost]
+        public IActionResult Update(Category category)
+        {
+			_service.TUpdate(category);
+			return RedirectToAction("CategoryList");
+        }
     }
 }
